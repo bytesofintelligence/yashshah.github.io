@@ -143,8 +143,9 @@ const pages = document.querySelectorAll("[data-page]");
 // add event to all nav link
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
+    const targetPage = this.getAttribute('data-page');
     for (let j = 0; j < pages.length; j++) {
-      if (this.getAttribute('data-page') === pages[j].getAttribute('data-page')) {
+      if (pages[j].getAttribute('data-page') === targetPage) {
         pages[j].classList.add("active");
         navigationLinks[i].classList.add("active");
         window.scrollTo(0, 0);
