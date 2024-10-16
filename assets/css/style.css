@@ -220,6 +220,11 @@ article.active {
   100% { opacity: 1; }
 }
 
+
+.p {
+  color: var(--white-2);
+}
+
 .h2,
 .h3,
 .h4,
