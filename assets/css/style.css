@@ -493,6 +493,14 @@ main {
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
 
+.custom-link {
+  color: var(--vegas-gold);
+  text-decoration: none; /* Optional: Removes underline if you don't want it */
+}
+
+.custom-link:hover {
+  text-decoration: underline; /* Optional: Adds underline on hover */
+}
 
 
 
