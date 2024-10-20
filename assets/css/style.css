@@ -494,8 +494,8 @@ main {
 
 
 .custom-link {
-  color: var(--vegas-gold);
-  text-decoration: none; /* Optional: Removes underline if you don't want it */
+  color: var(--bg-gradient-onyx);
+  text-decoration: underline; /* Optional: Removes underline if you don't want it */
 }
 
 .custom-link:hover {
